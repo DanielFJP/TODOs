@@ -1,0 +1,41 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  font-size: 35px;
+}
+
+
+#root {
+  margin: 0 24px;
+  position: relative;
+  min-height: 100vh;
+}
+
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(45deg, rgb(2, 198, 247), rgb(0, 181, 212), rgb(2, 102, 168), rgb(1, 29, 153));
+  background-size: 400% 400%;
+  position: relative;
+  animation: animacion 15s ease infinite;
+}
+
+@keyframes animacion {
+  0% {
+    background-position: 0 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0 50%;
+  }
+
+}
+
